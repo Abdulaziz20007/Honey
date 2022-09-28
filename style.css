@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,a,span,button,p {
+    font-family: 'Kodchasan';
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+}
+nav div a {
+    text-decoration: none;
+    color: black;
+}
+.section {
+    margin: 3rem;
+    display: flex;
+    padding: 0rem 5rem;
+    border-radius: 15px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+.asal {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 150px;
+}
+.left-side {
+    padding: 1rem;
+    height: 100%;
+    width: 50%;
+}
+.left-side h1 {
+    padding-left: 4.5rem;
+    padding-top: 9.5rem;
+    font-size: 85px;
+}
+.lick {
+    padding: 1rem 8rem;
+    font-size: 85px;
+}
+.left-side img {
+    position: absolute;
+    left: 10rem;
+    top: 32rem;
+    border-bottom: 1px solid black;
+}
+.left-side h3 {
+    padding: 0rem 17.5rem;
+    font-size: 85px;
+}
+.right-side {
+    padding-right: 0;
+    padding-top: 5rem;
+}
+.btns {
+    padding: 10rem 5rem;
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    padding: 1rem 2.5rem;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover {
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.btn2{
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+}
+.btn2:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.section2 {
+    padding: 3rem 13rem;
+}
+.section2 h1 {
+    font-size: 54px;
+}
+.section2 div {
+    padding-top: 4rem;
+    display: flex;
+    gap: 80px;
+}
+.left-sides {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.lefts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lefts h1 {
+    font-size: 45px;
+}
+.lefts h2 {
+    padding-top: 25px;
+    font-size: 22px;
+    color: black;
+    opacity: 0.7;
+}
+.btndiv {
+    padding-top: 50px;
+}
+.btn3 {
+    border: 2px solid #FF9D2D;
+    padding: 1rem 2rem;
+    background-color: #FF9D2D;
+    color: white;
+}
+.btn3:hover {
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: 2px solid #FF9D2D;
+}
+.right-sides {
+    padding: 1rem 5rem;
+    display: flex;
+    align-items: center;
+}
+.rights {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rights h1 {
+    font-size: 45px;
+}
+.rights h2 {
+    padding-top: 25px;
+    font-size: 22px;
+    color: black;
+    opacity: 0.7;
+}
+
+.btn4 {
+    padding: 1rem 2rem;
+    background: transparent;
+    color: #FF9D2D;
+    border: 2px solid #FF9D2D;
+}
+.btn4:hover {
+    background: #FF9D2D;
+    color: white;
+}
+.product {
+    padding: 0 12rem;
+}
+.product-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-head h1 {
+    font-size: 45px;
+}
+.product-head a{
+    text-decoration: underline !important;
+    color: #FF9D2D;
+}
+.cards {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 7rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background: #ff9d2d1c;
+}
+.card1 {
+    display: flex;
+    padding-top: 0.3rem;
+    align-items: center;
+    background: #ff9d2d1c;
+}
+.right1 img {
+    padding-left: 7rem;
+}
+.left1 {
+    padding: 1rem;
+}
+.imgg {
+    padding-left: 100rem;
+}
+.footer {
+    padding: 2.5rem;
+    background: #FF9D2D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer h1 {
+    opacity: 70%;
+    font-size: 14px;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.icons ion-icon {
+    width: 30px;
+}
+.aa {
+    font-size: 28px;
+}
+.p {
+    font-size: 16px;
+    line-height: 160%;
+}
+.stories {
+    display: flex;
+    gap: 20px;
+}
+.stories img {
+    cursor: pointer;
+}
+.flogo {
+    cursor: pointer;
+}
